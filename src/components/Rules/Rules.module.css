@@ -1,0 +1,39 @@
+.container {
+  padding: 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  color: #222;
+  margin-top: 6rem;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.sectionTitle {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #004d40;
+}
+
+.list {
+  list-style-type: decimal;
+  padding-left: 1.5rem;
+}
+
+.listItem {
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.paragraph {
+  line-height: 1.5;
+  font-size: 1rem;
+}
