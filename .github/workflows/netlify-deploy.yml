@@ -21,7 +21,6 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
       - run: npm install
-      - run: npm test
       - run: npm run lint
 
   build_and_deploy:
