@@ -1,4 +1,8 @@
 .container {
+  width: 100%;
+}
+
+.photosWrapper {
   column-width: 150px;
   column-gap: 0.5rem;
 }
@@ -17,13 +21,13 @@
 }
 
 @media (min-width: 768px) {
-  .container {
+  .photosWrapper {
     column-width: 300px;
   }
 }
 
 @media (min-width: 1400px) {
-  .container {
+  .photosWrapper {
     column-gap: 1rem;
     column-width: 350px;
   }
