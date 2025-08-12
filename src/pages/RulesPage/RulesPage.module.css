@@ -1,6 +1,22 @@
-.home {
-  width: 100%;
+.rules {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+  margin-top: 6rem;
+  background-color: #f0eeeb;
+}
+
+.maxContainer {
+  width: 100%;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  overflow: hidden;
+}
+
+@media (min-width: 1024px) {
+  .maxContainer {
+    padding: 0 2.5rem;
+  }
 }

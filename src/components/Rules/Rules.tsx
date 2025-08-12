@@ -1,12 +1,13 @@
 import React from 'react';
 
 import { rulesData } from './Rules.data';
+import Title from '../Title';
 import styles from './Rules.module.css';
 
 const Rules: React.FC = () => {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Regras da Casa</h1>
+      <Title>Regras da casa</Title>
 
       {rulesData.map(({ title, content }) => (
         <section key={title} className={styles.section}>

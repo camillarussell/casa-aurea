@@ -5,7 +5,9 @@ import styles from './RulesPage.module.css';
 const RulesPage: React.FC = () => {
   return (
     <main className={styles.rules}>
-      <Rules />
+      <div className={styles.maxContainer}>
+        <Rules />
+      </div>
     </main>
   );
 };
