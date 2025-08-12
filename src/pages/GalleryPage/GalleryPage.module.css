@@ -11,6 +11,12 @@
   width: 100%;
   max-width: 120rem;
   margin: 0 auto;
-  margin: 2.5rem;
+  padding: 0 1.5rem;
   overflow: hidden;
+}
+
+@media (min-width: 1024px) {
+  .maxContainer {
+    padding: 0 2.5rem;
+  }
 }

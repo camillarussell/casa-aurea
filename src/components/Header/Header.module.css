@@ -29,7 +29,7 @@ header.scrolled .list-item a {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  padding: 0 2.5rem;
+  padding: 0 1.5rem;
 }
 
 .logo {
@@ -58,4 +58,10 @@ header.scrolled .list-item a {
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
+}
+
+@media (min-width: 1024px) {
+  .navigation {
+    padding: 0 2.5rem;
+  }
 }
