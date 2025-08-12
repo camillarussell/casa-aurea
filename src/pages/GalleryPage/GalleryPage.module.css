@@ -1,0 +1,16 @@
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-top: 6rem;
+  background-color: #eee9e0;
+}
+
+.maxContainer {
+  width: 100%;
+  max-width: 120rem;
+  margin: 0 auto;
+  margin: 2.5rem;
+  overflow: hidden;
+}
