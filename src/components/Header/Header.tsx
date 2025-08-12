@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 import styles from './Header.module.css';
 
 const HEADER_HEIGHT = 96;
 
 const Header = () => {
+  const location = useLocation();
+  const isHome = location.pathname === '/';
+
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
@@ -18,7 +21,12 @@ const Header = () => {
   }, []);
 
   return (
-    <header data-testid="header" className={isScrolled ? styles.scrolled : ''}>
+    <header
+      data-testid="header"
+      className={`${isScrolled ? styles.scrolled : ''} ${
+        isHome ? styles.home : ''
+      }`.trim()}
+    >
       <nav className={styles.navigation}>
         <div className={styles.logo}>Casa Áurea</div>
         <ul className={styles.list}>

@@ -13,12 +13,12 @@ header {
 }
 
 header.scrolled {
-  background-color: #eee9e0;
+  background-color: #f0eeeb;
 }
 
 header.scrolled .logo,
 header.scrolled .list-item a {
-  color: #006a99;
+  color: #005a81;
 }
 
 .navigation {
@@ -41,7 +41,7 @@ header.scrolled .list-item a {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #fff;
-  color: #006a99;
+  color: #005a81;
 }
 
 .list {
@@ -57,6 +57,9 @@ header.scrolled .list-item a {
   list-style: none;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+header.home:not(.scrolled) .listItem a {
   color: #fff;
 }
 
