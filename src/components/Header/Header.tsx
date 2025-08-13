@@ -34,7 +34,7 @@ const Header = () => {
             <Link to="/">Início</Link>
           </li>
           <li className={styles.listItem}>
-            <a href="/galeria">Galeria</a>
+            <Link to="/galeria">Galeria</Link>
           </li>
           <li className={styles.listItem}>
             <Link to="/regras">Regras</Link>
